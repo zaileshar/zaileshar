@@ -68,7 +68,7 @@ My interests lie at the intersection of **circuit design, hardware acceleration,
 ### 🧾 Certifications & Achievements  
 - 🎓 Core Coordinator — IEEE MEC SB (MAGIC 2.0, Technopreneur)  
 - 🥉 3rd Place — District Level Science Fair (Kerala, 2018)  
-- 🧠 Internship — STEM Cadets, IoT and Embedded Systems  
+
 
 ---
 
