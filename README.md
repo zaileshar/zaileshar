@@ -1,114 +1,142 @@
-<!--  👋 README for GitHub Profile of Zailesh A R  -->
-<h1 align="center">👋 Hey there, I'm <span style="color:#00BFFF;">Zailesh A R</span></h1>
-<h3 align="center">M.Tech VLSI Design | Analog & Digital IC Enthusiast | FPGA & ASIC Learner</h3>
+<!-- Professional Serif Name Header (Dark / Light Safe, Static) -->
+<p align="center">
+  <picture>
+    <source
+      media="(prefers-color-scheme: dark)"
+      srcset="https://readme-typing-svg.demolab.com?font=Libre+Baskerville&weight=700&size=40&duration=1&pause=100000&color=EDEDED&center=true&vCenter=true&width=520&height=60&lines=Zailesh+A+R"
+    />
+    <img
+      src="https://readme-typing-svg.demolab.com?font=Libre+Baskerville&weight=700&size=40&duration=1&pause=100000&color=222222&center=true&vCenter=true&width=520&height=60&lines=Zailesh+A+R"
+      alt="Zailesh A R"
+    />
+  </picture>
+</p>
 
----
-
-### 🧠 About Me  
-
-I’m a passionate **VLSI design engineer-in-training** pursuing **M.Tech in VLSI Design (VIT Vellore)**, with hands-on experience in **Analog & Digital IC design**, **RTL coding**, and **Neural Network hardware accelerators**.  
-My interests lie at the intersection of **circuit design, hardware acceleration, and semiconductor architecture**.  
-
-💡 I love designing **high-speed MAC units**, optimizing for **low power and timing**, and exploring the **hardware-software co-design** space.  
-
-🔬 Currently exploring:  
-- High-speed **Booth/Wallace-tree multipliers**  
-- **FPGA-based neural accelerators**  
-- **Low-power analog design (op-amps, current mirrors)**  
-- Layout, DRC/LVS in Cadence Virtuoso  
-
----
-
-### 🧰 Tools & Technologies  
-
-#### 🧩 Digital VLSI  
-`Verilog` • `SystemVerilog` • `ModelSim` • `Synopsys DC` • `Cadence RTL Compiler`
-
-#### ⚙️ Analog & Circuit Design  
-`Cadence Virtuoso` • `Spectre` • `LTspice` • `Synopsys Custom Compiler`
-
-#### 💻 Hardware Prototyping  
-`Intel Quartus Prime` • `Vivado` • `FPGA Boards` • `Arduino / ESP32`
-
-#### 🧮 Scripting & Modeling  
-`Python` • `MATLAB` • `C/C++` • `TCAD`  
-
----
-
-### 🚀 Featured Projects  
-
-| Project | Description | Tools |
-|----------|--------------|-------|
-| 🧠 **High-Speed Multiplier-Based MAC** | Pipelined MAC for neural accelerators using Wallace-tree and Booth encoding. | Verilog, ModelSim, FPGA |
-| ⚡ **Telescopic CMOS Amplifier** | Analog op-amp design using Cadence Virtuoso; optimized for gain and bandwidth. | Virtuoso, Spectre |
-| 🔋 **Low-Power Multiplier** | Approximate computing approach to reduce dynamic power. | Verilog, Python |
-| 🧰 **FPGA Memory Module** | Parameterized memory with timing verification and simulation. | Quartus, ModelSim |
-
----
-
-### 📈 GitHub Stats  
+<h3 align="center">
+Aspiring ASIC & VLSI Design Engineer · RTL with a Tape-Out Mindset · Learn Reflect Learn Again
+</h3>
 
 <p align="center">
-  <img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=zaileshar&layout=compact&theme=tokyonight&hide_border=true" />
-  <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=zaileshar&theme=tokyonight" />
+<a href="mailto:zaileshar@gmail.com">Email</a> ·
+<a href="https://www.linkedin.com/in/zaileshar/">LinkedIn</a> ·
+<a href="https://zaileshar.github.io/"><strong>Portfolio</strong></a>
+</p>
+
+<!-- Strong Call-to-Action -->
+<p align="center">
+  <a href="https://zaileshar.github.io/">
+    <img src="https://img.shields.io/badge/View%20Portfolio-Detailed%20Designs%20%26%20Results-black?style=for-the-badge"/>
+  </a>
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Focus-ASIC%20Design-blueviolet?style=flat-square"/>
+  <img src="https://img.shields.io/badge/RTL-Synthesis%20Ready-informational?style=flat-square"/>
+  <img src="https://img.shields.io/badge/Mindset-Tapeout%20Oriented-success?style=flat-square"/>
+  <img src="https://img.shields.io/badge/Approach-Always%20Learning-orange?style=flat-square"/>
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Flow-RTL%20→%20Synthesis%20→%20Timing%20→%20Silicon-lightgrey?style=flat"/>
 </p>
 
 ---
 
-### 🏗️ VLSI Engineer by Passion, Coder by Practice  
+## 👋 About Me
 
-> “In silicon we trust — every nanosecond counts.”  
-> – A VLSI designer somewhere
+  My interest in hardware design began when I stumbled upon the fact that sand can be a processor?  
+  How does logic written in code eventually become real silicon?
 
-🌱 I’m currently enhancing my **digital design verification** and **low-power RTL optimization** skills.  
-📚 My next step: exploring **SoC design and NoC architectures for AI hardware**.
+That question gradually led me from fundamental digital design into **RTL development, synthesis flows, timing analysis, and layout-aware thinking**. What excites me most is understanding **why certain design styles and architectural choices translate well to silicon while others struggle during implementation**.
 
----
-
-### 🧾 Certifications & Achievements  
-- 🎓 Core Coordinator — IEEE MEC SB (MAGIC 2.0, Technopreneur)  
-- 🥉 3rd Place — District Level Science Fair (Kerala, 2018)  
-
+As an **M.Tech VLSI Design student**, I approach every project as both a **design challenge and a learning journey** — constantly exploring new concepts, experimenting with different design formats, and refining my understanding of **ASIC-grade, tape-out-ready digital hardware**.
 
 ---
 
-### 🛰️ Let’s Connect  
+## 🧠 How I Learn & Design
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/zaileshar/" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
-  <a href="mailto:zaileshar@gmail.com" target="_blank"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white"/></a>
-  <a href="https://github.com/zaileshar" target="_blank"><img src="https://img.shields.io/badge/GitHub-171515?style=for-the-badge&logo=github&logoColor=white"/></a>
+  <img src="https://img.shields.io/badge/Learning%20Loop-Build%20→%20Analyze%20→%20Refine-blue?style=flat"/>
+</p>
+
+I learn best by **designing, observing tool behavior, and iterating**.
+
+For the same problem, I enjoy:
+- Exploring **multiple architectural approaches**
+- Writing RTL in different styles to study synthesis behavior
+- Using timing and synthesis reports as learning feedback
+- Refining designs until they are **clean, predictable, and physically realistic**
+
+---
+
+## 🧭 Tape-Out-Oriented Design Philosophy
+
+When I write RTL, I think beyond simulation success.
+
+My goal is to ensure that the design:
+- Is **fully synthesizable and tool-robust**
+- Follows disciplined clocking and reset strategies
+- Can be constrained, synthesized, and taken toward physical design
+- Anticipates downstream **timing, power, and area trade-offs**
+- Naturally fits into a **tape-out-ready ASIC flow**
+
+> *Can this realistically become silicon?*
+
+---
+
+## 🔬 Areas I’m Actively Exploring
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Focus%20Areas-RTL%20Design%20|%20Timing%20Closure%20|%20Datapaths-lightgrey?style=flat"/>
+</p>
+
+- ASIC-oriented RTL design and verification  
+- Arithmetic units and critical datapaths  
+- SDC constraints and timing closure  
+- RISC-V datapaths, control logic, and peripherals  
+- Power, performance, and area trade-offs  
+
+---
+
+## 🌐 Projects & Detailed Work
+
+High-level implementations and experiments are available on GitHub.  
+For **complete design documentation, schematics, simulations, and results**, visit:
+
+<p align="center">
+  <a href="https://zaileshar.github.io/">
+    <img src="https://img.shields.io/badge/Open%20Portfolio-Engineering%20Walkthroughs-blue?style=for-the-badge"/>
+  </a>
 </p>
 
 ---
 
-### ⚡ Fun Fact  
-I see **Verilog** the way others see poetry — every non-blocking assignment tells a story about timing.  
-When I’m not simulating circuits, I’m simulating ideas.
-
----
-
-### 🧩 Visitor Count  
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=zaileshar&color=blueviolet&style=for-the-badge&label=Profile+Visits" />
-</p>
-
----
-
-### 🛠️ Dynamic Contributions Graph  
+## 🛠️ Tools & Technologies
 
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=zaileshar&theme=react-dark&hide_border=true&area=true" />
+  <img src="https://skillicons.dev/icons?i=verilog,python&theme=light"/>
 </p>
 
+<p align="center">
+  <img src="https://img.shields.io/badge/TCL%20Scripting-ASIC%20Automation-blue?style=flat-square"/>
+</p>
+
+**Digital / ASIC Flow**  
+Verilog · SystemVerilog · Synopsys Design Compiler · VCS · Formality · PrimeTime · ModelSim  
+
+**Analog / Custom IC**  
+Cadence Virtuoso · Spectre · DRC / LVS  
+
+**FPGA & Prototyping**  
+Intel Quartus Prime · DE2-115 FPGA  
+
+**Scripting**  
+TCL · Python  
+
 ---
 
-### 🧪 A Glimpse of My Engineering Philosophy  
-
-> Designing hardware is like composing music — precision in rhythm, harmony in logic,  
-> and creativity in every line of code and transistor.
-
----
-
-<h4 align="center">💡 Always open to collaboration in VLSI, FPGA, and Neural Hardware domains.</h4>
-<h5 align="center">⭐ If you found my repositories useful, give them a star and let’s connect!</h5>
+<p align="center">
+<strong>
+Always learning. Always refining. Always designing with silicon in mind.
+</strong>
+</p>
