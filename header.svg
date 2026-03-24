@@ -1,0 +1,107 @@
+<svg width="860" height="210" viewBox="0 0 860 210" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+
+    <pattern id="dots" width="22" height="22" patternUnits="userSpaceOnUse">
+      <circle cx="11" cy="11" r="0.9" fill="#1e2736"/>
+    </pattern>
+
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="860" y2="210" gradientUnits="userSpaceOnUse">
+      <stop offset="0%"   stop-color="#0b0f17"/>
+      <stop offset="100%" stop-color="#0f1823"/>
+    </linearGradient>
+
+    <linearGradient id="nameGrad" x1="0" y1="0" x2="860" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0%"   stop-color="#c7d2fe"/>
+      <stop offset="45%"  stop-color="#e0e7ff">
+        <animate attributeName="stop-color"
+          values="#e0e7ff;#bae6fd;#c7d2fe;#ddd6fe;#e0e7ff"
+          dur="7s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="100%" stop-color="#c7d2fe"/>
+    </linearGradient>
+
+    <linearGradient id="lineGrad" x1="0" y1="0" x2="860" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0%"   stop-color="#0b0f17" stop-opacity="0"/>
+      <stop offset="25%"  stop-color="#818cf8" stop-opacity="0.5"/>
+      <stop offset="50%"  stop-color="#a5b4fc" stop-opacity="0.9"/>
+      <stop offset="75%"  stop-color="#818cf8" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#0b0f17" stop-opacity="0"/>
+    </linearGradient>
+
+    <linearGradient id="topBar" x1="0" y1="0" x2="860" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0%"   stop-color="#0b0f17"/>
+      <stop offset="30%"  stop-color="#6366f1" stop-opacity="0.7"/>
+      <stop offset="50%"  stop-color="#a5b4fc"/>
+      <stop offset="70%"  stop-color="#6366f1" stop-opacity="0.7"/>
+      <stop offset="100%" stop-color="#0b0f17"/>
+    </linearGradient>
+
+  </defs>
+
+  <style>
+    @keyframes fadeSlideUp {
+      from { opacity: 0; transform: translateY(16px); }
+      to   { opacity: 1; transform: translateY(0);    }
+    }
+    @keyframes scaleIn {
+      from { opacity: 0; transform: scaleX(0); }
+      to   { opacity: 1; transform: scaleX(1); }
+    }
+    @keyframes glowPulse {
+      0%,100% { opacity: 0.55; }
+      50%      { opacity: 1;   }
+    }
+    @keyframes barIn {
+      from { opacity: 0; }
+      to   { opacity: 1; }
+    }
+    .name {
+      font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+      font-size: 58px;
+      font-weight: 700;
+      letter-spacing: 16px;
+      fill: url(#nameGrad);
+      animation: fadeSlideUp 1s cubic-bezier(0.16,1,0.3,1) 0.1s both;
+    }
+    .sub {
+      font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+      font-size: 11px;
+      font-weight: 400;
+      letter-spacing: 5px;
+      fill: #64748b;
+      animation: fadeSlideUp 0.8s cubic-bezier(0.16,1,0.3,1) 0.55s both;
+    }
+    .divider {
+      transform-origin: 430px 0;
+      animation: scaleIn 1s cubic-bezier(0.16,1,0.3,1) 0.7s both;
+    }
+    .top-bar {
+      animation: barIn 0.5s ease 0s both;
+    }
+    .dot {
+      fill: #818cf8;
+      animation: barIn 0.1s ease 1.7s both, glowPulse 3.5s ease 2s infinite;
+    }
+  </style>
+
+  <!-- Background -->
+  <rect width="860" height="210" rx="16" fill="url(#bgGrad)"/>
+  <rect width="860" height="210" rx="16" fill="url(#dots)" opacity="1"/>
+
+  <!-- Top accent bar -->
+  <rect x="0" y="0" width="860" height="2" rx="1" fill="url(#topBar)" class="top-bar"/>
+
+  <!-- Name -->
+  <text x="430" y="116" text-anchor="middle" class="name">ZAILESH A R</text>
+
+  <!-- Divider line -->
+  <rect x="100" y="136" width="660" height="0.8" rx="0.4" fill="url(#lineGrad)" class="divider"/>
+
+  <!-- Accent dots -->
+  <circle cx="98"  cy="136.4" r="2.5" class="dot"/>
+  <circle cx="762" cy="136.4" r="2.5" class="dot"/>
+
+  <!-- Subtitle -->
+  <text x="430" y="172" text-anchor="middle" class="sub">ASIC  ·  VLSI DESIGN ENGINEER  ·  M.TECH  ·  RTL → SILICON</text>
+
+</svg>

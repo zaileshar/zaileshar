@@ -1,0 +1,107 @@
+<svg width="860" height="278" viewBox="0 0 860 278" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+
+    <pattern id="dots" width="22" height="22" patternUnits="userSpaceOnUse">
+      <circle cx="11" cy="11" r="0.9" fill="#1e2736"/>
+    </pattern>
+
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="860" y2="278" gradientUnits="userSpaceOnUse">
+      <stop offset="0%"   stop-color="#0b0f17"/>
+      <stop offset="100%" stop-color="#0f1823"/>
+    </linearGradient>
+
+    <linearGradient id="fullLine" x1="0" y1="0" x2="860" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0%"   stop-color="#0b0f17" stop-opacity="0"/>
+      <stop offset="15%"  stop-color="#a5b4fc" stop-opacity="0.5"/>
+      <stop offset="85%"  stop-color="#a5b4fc" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#0b0f17" stop-opacity="0"/>
+    </linearGradient>
+
+    <linearGradient id="labelLine" x1="0" y1="0" x2="300" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0%"   stop-color="#a5b4fc" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#a5b4fc" stop-opacity="0"/>
+    </linearGradient>
+
+  </defs>
+
+  <style>
+    @keyframes fadeUp {
+      from { opacity: 0; transform: translateY(8px); }
+      to   { opacity: 1; transform: translateY(0);   }
+    }
+    @keyframes widthIn {
+      from { opacity: 0; transform: scaleX(0); }
+      to   { opacity: 1; transform: scaleX(1); }
+    }
+    .label {
+      font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+      font-size: 9px; font-weight: 700; letter-spacing: 3.5px; fill: #818cf8;
+      animation: fadeUp 0.6s cubic-bezier(0.16,1,0.3,1) 0.1s both;
+    }
+    .label-line {
+      transform-origin: 48px 0;
+      animation: widthIn 0.8s cubic-bezier(0.16,1,0.3,1) 0.3s both;
+    }
+    .top-line { animation: widthIn 0.9s cubic-bezier(0.16,1,0.3,1) 0.2s both; transform-origin: 48px 0; }
+    .cat {
+      font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+      font-size: 8.5px; font-weight: 700; letter-spacing: 2.5px; fill: #818cf8;
+      text-anchor: end;
+    }
+    .tools {
+      font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+      font-size: 12.5px; font-weight: 400; fill: #94a3b8;
+    }
+    .dot-sep { fill: #334155; }
+    .r1 { animation: fadeUp 0.65s cubic-bezier(0.16,1,0.3,1) 0.35s both; }
+    .r2 { animation: fadeUp 0.65s cubic-bezier(0.16,1,0.3,1) 0.50s both; }
+    .r3 { animation: fadeUp 0.65s cubic-bezier(0.16,1,0.3,1) 0.65s both; }
+    .r4 { animation: fadeUp 0.65s cubic-bezier(0.16,1,0.3,1) 0.80s both; }
+    .vdiv { stroke: #1e2736; stroke-width: 1; }
+    .hdiv { animation: widthIn 0.6s ease 0.3s both; transform-origin: 48px 0; }
+  </style>
+
+  <!-- Background -->
+  <rect width="860" height="278" rx="16" fill="url(#bgGrad)"/>
+  <rect width="860" height="278" rx="16" fill="url(#dots)"/>
+
+  <!-- Section label -->
+  <text x="48" y="38" class="label">$ SILICON STACK</text>
+  <rect x="48" y="46" width="300" height="0.8" fill="url(#labelLine)" class="label-line"/>
+
+  <!-- Vertical divider -->
+  <line x1="210" y1="62" x2="210" y2="248" class="vdiv"/>
+
+  <!-- Row dividers (horizontal between rows) -->
+  <rect x="48"  y="108" width="764" height="0.5" fill="#161d2b" class="hdiv"/>
+  <rect x="48"  y="154" width="764" height="0.5" fill="#161d2b" class="hdiv"/>
+  <rect x="48"  y="200" width="764" height="0.5" fill="#161d2b" class="hdiv"/>
+
+  <!-- Row 1: HDL & SIM -->
+  <g class="r1">
+    <text x="196" y="90" class="cat">HDL &amp; SIM</text>
+    <text x="228" y="90" class="tools">Verilog  ·  SystemVerilog  ·  Synopsys VCS  ·  ModelSim</text>
+  </g>
+
+  <!-- Row 2: SYNTHESIS -->
+  <g class="r2">
+    <text x="196" y="136" class="cat">SYNTHESIS</text>
+    <text x="228" y="136" class="tools">Design Compiler  ·  PrimeTime STA  ·  Formality EC</text>
+  </g>
+
+  <!-- Row 3: ANALOG -->
+  <g class="r3">
+    <text x="196" y="182" class="cat">ANALOG &amp; PHYSICAL</text>
+    <text x="228" y="182" class="tools">Cadence Virtuoso  ·  Spectre  ·  DRC / LVS</text>
+  </g>
+
+  <!-- Row 4: FPGA & SCRIPT -->
+  <g class="r4">
+    <text x="196" y="228" class="cat">FPGA &amp; SCRIPTING</text>
+    <text x="228" y="228" class="tools">Quartus Prime  ·  TCL  ·  Python  ·  Linux  ·  Git</text>
+  </g>
+
+  <!-- Bottom border line -->
+  <rect x="48" y="250" width="764" height="0.8" fill="url(#fullLine)" class="top-line"/>
+
+</svg>

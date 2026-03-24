@@ -1,0 +1,72 @@
+<svg width="860" height="190" viewBox="0 0 860 190" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+
+    <pattern id="dots" width="22" height="22" patternUnits="userSpaceOnUse">
+      <circle cx="11" cy="11" r="0.9" fill="#1e2736"/>
+    </pattern>
+
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="860" y2="190" gradientUnits="userSpaceOnUse">
+      <stop offset="0%"   stop-color="#0b0f17"/>
+      <stop offset="100%" stop-color="#0f1823"/>
+    </linearGradient>
+
+    <linearGradient id="labelLine" x1="0" y1="0" x2="300" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0%"   stop-color="#a5b4fc" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#a5b4fc" stop-opacity="0"/>
+    </linearGradient>
+
+  </defs>
+
+  <style>
+    @keyframes fadeUp {
+      from { opacity: 0; transform: translateY(10px); }
+      to   { opacity: 1; transform: translateY(0);    }
+    }
+    @keyframes widthIn {
+      from { opacity: 0; transform: scaleX(0); }
+      to   { opacity: 1; transform: scaleX(1); }
+    }
+    .label {
+      font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+      font-size: 9px; font-weight: 700; letter-spacing: 3.5px;
+      fill: #818cf8;
+      animation: fadeUp 0.6s cubic-bezier(0.16,1,0.3,1) 0.1s both;
+    }
+    .label-line {
+      transform-origin: 48px 0;
+      animation: widthIn 0.8s cubic-bezier(0.16,1,0.3,1) 0.3s both;
+    }
+    .body {
+      font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+      font-size: 13.5px; font-weight: 400; line-height: 1.7;
+      fill: #94a3b8;
+    }
+    .line1 { animation: fadeUp 0.7s cubic-bezier(0.16,1,0.3,1) 0.35s both; }
+    .line2 { animation: fadeUp 0.7s cubic-bezier(0.16,1,0.3,1) 0.5s  both; }
+    .line3 { animation: fadeUp 0.7s cubic-bezier(0.16,1,0.3,1) 0.65s both; }
+    .highlight { fill: #c7d2fe; font-weight: 500; }
+    .tags {
+      font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+      font-size: 10px; font-weight: 500; letter-spacing: 1.5px;
+      fill: #475569;
+      animation: fadeUp 0.7s cubic-bezier(0.16,1,0.3,1) 0.8s both;
+    }
+  </style>
+
+  <rect width="860" height="190" rx="16" fill="url(#bgGrad)"/>
+  <rect width="860" height="190" rx="16" fill="url(#dots)"/>
+
+  <!-- Section label -->
+  <text x="48" y="38" class="label">$ WHOAMI</text>
+  <rect x="48" y="46" width="280" height="0.8" rx="0.4" fill="url(#labelLine)" class="label-line"/>
+
+  <!-- Bio lines -->
+  <text x="48" y="78"  class="body line1">Got curious about how <tspan class="highlight">sand becomes a processor</tspan> and never stopped pulling that thread.</text>
+  <text x="48" y="103" class="body line2">Most of my time goes into RTL — writing Verilog that synthesis tools can handle cleanly, reading timing</text>
+  <text x="48" y="124" class="body line2">reports as design feedback, thinking about <tspan class="highlight">physical constraints from line one.</tspan></text>
+  <text x="48" y="149" class="body line3">Deep into <tspan class="highlight">RISC-V microarchitecture</tspan>, <tspan class="highlight">DDR4 memory controllers</tspan>, and SDC constraint authoring. 79 repos.</text>
+
+  <!-- Focus tags -->
+  <text x="48" y="176" class="tags">RTL DESIGN  ·  TIMING CLOSURE  ·  ARITHMETIC DATAPATHS  ·  RISC-V  ·  PPA TRADE-OFFS</text>
+
+</svg>
