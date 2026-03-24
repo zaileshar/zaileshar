@@ -1,142 +1,176 @@
-<!-- Professional Serif Name Header (Dark / Light Safe, Static) -->
-<p align="center">
-  <picture>
-    <source
-      media="(prefers-color-scheme: dark)"
-      srcset="https://readme-typing-svg.demolab.com?font=Libre+Baskerville&weight=700&size=40&duration=1&pause=100000&color=EDEDED&center=true&vCenter=true&width=520&height=60&lines=Zailesh+A+R"
-    />
-    <img
-      src="https://readme-typing-svg.demolab.com?font=Libre+Baskerville&weight=700&size=40&duration=1&pause=100000&color=222222&center=true&vCenter=true&width=520&height=60&lines=Zailesh+A+R"
-      alt="Zailesh A R"
-    />
-  </picture>
-</p>
+<div align="center">
 
-<h3 align="center">
-Aspiring ASIC & VLSI Design Engineer · RTL with a Tape-Out Mindset · Learn Reflect Learn Again
-</h3>
+<!-- Animated Name Header -->
+<picture>
+  <source media="(prefers-color-scheme: dark)"
+    srcset="https://readme-typing-svg.demolab.com?font=Cormorant+Garamond&weight=700&size=52&duration=1&pause=999999&color=E8E0D0&center=true&vCenter=true&width=600&height=75&lines=Zailesh+A+R" />
+  <img
+    src="https://readme-typing-svg.demolab.com?font=Cormorant+Garamond&weight=700&size=52&duration=1&pause=999999&color=1A1A1A&center=true&vCenter=true&width=600&height=75&lines=Zailesh+A+R"
+    alt="Zailesh A R" />
+</picture>
 
-<p align="center">
-<a href="mailto:zaileshar@gmail.com">Email</a> ·
-<a href="https://www.linkedin.com/in/zaileshar/">LinkedIn</a> ·
-<a href="https://zaileshar.github.io/"><strong>Portfolio</strong></a>
-</p>
+<br/>
 
-<!-- Strong Call-to-Action -->
-<p align="center">
-  <a href="https://zaileshar.github.io/">
-    <img src="https://img.shields.io/badge/View%20Portfolio-Detailed%20Designs%20%26%20Results-black?style=for-the-badge"/>
-  </a>
-</p>
+```
+  ASIC & VLSI Design Engineer  ·  RTL → Synthesis → Timing → Silicon
+```
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Focus-ASIC%20Design-blueviolet?style=flat-square"/>
-  <img src="https://img.shields.io/badge/RTL-Synthesis%20Ready-informational?style=flat-square"/>
-  <img src="https://img.shields.io/badge/Mindset-Tapeout%20Oriented-success?style=flat-square"/>
-  <img src="https://img.shields.io/badge/Approach-Always%20Learning-orange?style=flat-square"/>
-</p>
+<br/>
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Flow-RTL%20→%20Synthesis%20→%20Timing%20→%20Silicon-lightgrey?style=flat"/>
-</p>
+[![Portfolio](https://img.shields.io/badge/◈_Portfolio-zaileshar.github.io-0d0d0d?style=for-the-badge&labelColor=0d0d0d&color=c9a84c)](https://zaileshar.github.io/)
+&nbsp;
+[![Email](https://img.shields.io/badge/◈_Email-zaileshar@gmail.com-0d0d0d?style=for-the-badge&labelColor=0d0d0d&color=6b8cba)](mailto:zaileshar@gmail.com)
+&nbsp;
+[![LinkedIn](https://img.shields.io/badge/◈_LinkedIn-zaileshar-0d0d0d?style=for-the-badge&labelColor=0d0d0d&color=4a9e7f)](https://www.linkedin.com/in/zaileshar/)
+
+</div>
 
 ---
 
-## 👋 About Me
+<br/>
 
-  My interest in hardware design began when I stumbled upon the fact that sand can be a processor?  
-  How does logic written in code eventually become real silicon?
+<table>
+<tr>
+<td width="60%" valign="top">
 
-That question gradually led me from fundamental digital design into **RTL development, synthesis flows, timing analysis, and layout-aware thinking**. What excites me most is understanding **why certain design styles and architectural choices translate well to silicon while others struggle during implementation**.
+## About
 
-As an **M.Tech VLSI Design student**, I approach every project as both a **design challenge and a learning journey** — constantly exploring new concepts, experimenting with different design formats, and refining my understanding of **ASIC-grade, tape-out-ready digital hardware**.
+My interest in hardware design began with a single question —
 
----
+> *How does logic written in code become real silicon?*
 
-## 🧠 How I Learn & Design
+That question has since taken me through **RTL development**, **synthesis flows**, **timing analysis**, and **layout-aware thinking**. What drives me is understanding *why* certain design styles translate cleanly to silicon — and why others fall apart under the tools.
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Learning%20Loop-Build%20→%20Analyze%20→%20Refine-blue?style=flat"/>
-</p>
+As an **M.Tech VLSI Design** student, I treat every project as both a design challenge and a learning journey: experimenting with architectural choices, reading synthesis reports as feedback, and iterating until the design is clean, predictable, and physically realistic.
 
-I learn best by **designing, observing tool behavior, and iterating**.
+</td>
+<td width="40%" valign="top" align="center">
 
-For the same problem, I enjoy:
-- Exploring **multiple architectural approaches**
-- Writing RTL in different styles to study synthesis behavior
-- Using timing and synthesis reports as learning feedback
-- Refining designs until they are **clean, predictable, and physically realistic**
+<br/><br/>
 
----
+```
+┌─────────────────────────┐
+│                         │
+│   RTL  →  Synthesis     │
+│    ↓           ↓        │
+│  Timing  →  Silicon     │
+│                         │
+│   Every line of RTL     │
+│   written with the      │
+│   fab in mind.          │
+│                         │
+└─────────────────────────┘
+```
 
-## 🧭 Tape-Out-Oriented Design Philosophy
+</td>
+</tr>
+</table>
 
-When I write RTL, I think beyond simulation success.
-
-My goal is to ensure that the design:
-- Is **fully synthesizable and tool-robust**
-- Follows disciplined clocking and reset strategies
-- Can be constrained, synthesized, and taken toward physical design
-- Anticipates downstream **timing, power, and area trade-offs**
-- Naturally fits into a **tape-out-ready ASIC flow**
-
-> *Can this realistically become silicon?*
-
----
-
-## 🔬 Areas I’m Actively Exploring
-
-<p align="center">
-  <img src="https://img.shields.io/badge/Focus%20Areas-RTL%20Design%20|%20Timing%20Closure%20|%20Datapaths-lightgrey?style=flat"/>
-</p>
-
-- ASIC-oriented RTL design and verification  
-- Arithmetic units and critical datapaths  
-- SDC constraints and timing closure  
-- RISC-V datapaths, control logic, and peripherals  
-- Power, performance, and area trade-offs  
+<br/>
 
 ---
 
-## 🌐 Projects & Detailed Work
+## Design Philosophy
 
-High-level implementations and experiments are available on GitHub.  
-For **complete design documentation, schematics, simulations, and results**, visit:
+I write RTL with **tape-out clarity** as the north star — not just simulation correctness.
 
-<p align="center">
-  <a href="https://zaileshar.github.io/">
-    <img src="https://img.shields.io/badge/Open%20Portfolio-Engineering%20Walkthroughs-blue?style=for-the-badge"/>
-  </a>
-</p>
+| Principle | In Practice |
+|---|---|
+| **Synthesizability First** | No RTL that tools can't reliably infer |
+| **Disciplined Clocking** | Single-clock domains, clean resets, no clock gating surprises |
+| **Constraint-Driven** | Every design comes with SDC; timing is part of the spec |
+| **PPA Awareness** | Architectural choices made with area, power, and critical paths in mind |
+| **Physical Realism** | Design formatted for downstream place-and-route, not just wave files |
 
----
-
-## 🛠️ Tools & Technologies
-
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=verilog,python&theme=light"/>
-</p>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/TCL%20Scripting-ASIC%20Automation-blue?style=flat-square"/>
-</p>
-
-**Digital / ASIC Flow**  
-Verilog · SystemVerilog · Synopsys Design Compiler · VCS · Formality · PrimeTime · ModelSim  
-
-**Analog / Custom IC**  
-Cadence Virtuoso · Spectre · DRC / LVS  
-
-**FPGA & Prototyping**  
-Intel Quartus Prime · DE2-115 FPGA  
-
-**Scripting**  
-TCL · Python  
+<br/>
 
 ---
 
-<p align="center">
-<strong>
-Always learning. Always refining. Always designing with silicon in mind.
-</strong>
-</p>
+## Active Exploration
+
+<div align="center">
+
+| Domain | What I'm Working On |
+|--------|---------------------|
+| 🔷 **RTL & Microarchitecture** | ASIC-oriented design patterns, parameterizable blocks |
+| ⚡ **Timing & Closure** | SDC authoring, path analysis, multi-corner flows |
+| 🧮 **Arithmetic Datapaths** | Adders, multipliers, dividers — area vs. speed trade-offs |
+| 🖥️ **RISC-V** | Datapath, control logic, CSR registers, peripherals |
+| 🔬 **Power Analysis** | Dynamic and static power estimation, gating strategies |
+
+</div>
+
+<br/>
+
+---
+
+## Tools & Technologies
+
+<div align="center">
+
+**RTL & Simulation**
+
+![Verilog](https://img.shields.io/badge/Verilog-SystemVerilog-4a4a6a?style=flat-square&logo=v&logoColor=white)
+![VCS](https://img.shields.io/badge/Synopsys-VCS-blue?style=flat-square)
+![ModelSim](https://img.shields.io/badge/ModelSim-Simulation-informational?style=flat-square)
+
+**Synthesis & Timing**
+
+![DC](https://img.shields.io/badge/Design_Compiler-Synthesis-8a2be2?style=flat-square)
+![PrimeTime](https://img.shields.io/badge/PrimeTime-STA-6b3fa0?style=flat-square)
+![Formality](https://img.shields.io/badge/Formality-Equivalence_Check-5a2d82?style=flat-square)
+
+**Analog & Custom IC**
+
+![Virtuoso](https://img.shields.io/badge/Cadence-Virtuoso-c9342e?style=flat-square)
+![Spectre](https://img.shields.io/badge/Spectre-Simulation-b02020?style=flat-square)
+![DRC/LVS](https://img.shields.io/badge/DRC_/_LVS-Physical_Verification-922020?style=flat-square)
+
+**FPGA & Scripting**
+
+![Quartus](https://img.shields.io/badge/Intel-Quartus_Prime-0071c5?style=flat-square)
+![TCL](https://img.shields.io/badge/TCL-ASIC_Automation-2a7a4f?style=flat-square)
+![Python](https://img.shields.io/badge/Python-Scripting-3670a0?style=flat-square&logo=python&logoColor=ffdd54)
+
+</div>
+
+<br/>
+
+---
+
+## How I Work
+
+```
+Problem
+  └── Understand architecture space
+        └── Write RTL in multiple styles
+              └── Synthesize & read reports
+                    └── Identify critical paths & inefficiencies
+                          └── Refine until clean, predictable, silicon-ready
+                                └── Document with full design intent
+```
+
+I learn best by **building, observing tool behavior, and iterating** — treating synthesis and timing reports not as pass/fail gates, but as design feedback to internalize.
+
+<br/>
+
+---
+
+## Projects & Portfolio
+
+High-level code lives here on GitHub.  
+For **complete design documentation, waveforms, schematics, synthesis reports, and walkthroughs** — visit the portfolio:
+
+<div align="center">
+
+<br/>
+
+[![Open Portfolio](https://img.shields.io/badge/◈_Open_Portfolio-Engineering_Walkthroughs_%26_Results-0d0d0d?style=for-the-badge&labelColor=0d0d0d&color=c9a84c)](https://zaileshar.github.io/)
+
+<br/>
+
+---
+
+*Always learning. Always refining. Always designing with silicon in mind.*
+
+</div>
