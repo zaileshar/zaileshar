@@ -1,9 +1,6 @@
 <div align="center">
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.demolab.com?font=Libre+Baskerville&weight=700&size=58&duration=1&pause=999999&color=E8EAF6&center=true&vCenter=true&width=640&height=90&lines=Zailesh+A+R"/>
-  <img src="https://readme-typing-svg.demolab.com?font=Libre+Baskerville&weight=700&size=58&duration=1&pause=999999&color=111827&center=true&vCenter=true&width=640&height=90&lines=Zailesh+A+R" alt="Zailesh A R"/>
-</picture>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=venom&height=220&text=Zailesh%20A%20R&fontSize=70&color=0:5C4AE4,100:7986CB&fontColor=E8EAF6&animation=fadeIn&fontAlignY=55&stroke=5C4AE4&strokeWidth=1&desc=VLSI+Design+Engineering+Student&descAlignY=75&descSize=15&descColor=C5CAE9"/>
 
 <a href="mailto:zaileshar@gmail.com">
   <img src="https://img.shields.io/badge/Email-zaileshar%40gmail.com-0D1230?style=flat-square&logo=gmail&logoColor=EA4335&labelColor=0D1230"/>
@@ -161,6 +158,7 @@ The timing report in particular has taught me more about clocking and datapath s
 ## ⬡ &nbsp;GitHub Activity
 
 <div align="center">
+
 
 <img height="175" src="https://github-readme-stats-salesp07.vercel.app/api/top-langs/?username=zaileshar&layout=compact&hide_border=true&bg_color=0D1230&title_color=7986CB&text_color=C5CAE9&langs_count=6"/>
 
